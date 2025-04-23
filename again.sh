@@ -10,7 +10,7 @@ echo "| NVM" $(nvm current)", FOI INSTALADO|"
 echo "| NPM" $(npm -v )", FOI INSTALADO    |"
 echo "+------------------------------------+"
 
-npm install -g npm
+npm install -g npm@11.3.0
 echo "+------------------------------------+"
 echo "|NODE PACKAGE MANAGER FOI ACTUALIZADO|"
 echo "+------------------------------------+"
@@ -32,12 +32,11 @@ echo "+-----------------------------------------------------+"
 echo "| VOCE ME COMFIRMOU QUE O FIREFOX ESTA ABERTO         |"
 echo "| ENTRE NA SUA CONTA, ME AVISE QUANDO FIZER ISSO      |"
 echo "+-----------------------------------------------------+"
-firefox github.com/login
+firefox github.com/settings/keys &
 echo -e "\t>>VOCE JA ESTA LOGADO?\t\t[<enter>]"
 read
 
 echo
-firefox github.com/settings/keys
 
 cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard
 echo "+------------------------------------------------------------------+"
