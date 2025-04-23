@@ -75,3 +75,8 @@ if  [[ "$se_sim" == "sim" ]]; then
     cd livefevunge/
     vim again.sh
 fi
+echo "+-------------------------------------------------+"
+firefox https://mail.google.com/mail/u/0/#inbox &
+firefox https://courses.wesbos.com/account/access/68083fb3ef8bc517e84c55d0/view/194837696
+echo "+-------------------------------------------------+"
+
