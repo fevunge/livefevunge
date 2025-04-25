@@ -18,3 +18,5 @@ git config --global user.name "fevunge"
 git config --global user.email "developervunge@gmail.com"
 
 firefox https://courses.wesbos.com/account/access/68083fb3ef8bc517e84c55d0/view/194837696
+
+git clone https://github.com/github/copilot.vim.git ~/.vim/pack/github/start/copilot.vim
